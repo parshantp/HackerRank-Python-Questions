@@ -6,3 +6,17 @@ Input Format
 The first line contains n. The second line contains an array A[] of n integers each separated by a space.
 """
 # ---------------------------------------------------------------------------------------------------------------------------------------
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    l = list(arr)
+    x =[]
+    m = max(l)
+    for i in l:
+        if i == m:
+            continue
+        else:
+            x.append(i)
+    y = sorted(x)
+    a = y[-1]
+    print(a)
