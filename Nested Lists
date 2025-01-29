@@ -6,3 +6,11 @@ Note: If there are multiple students with the second lowest grade,
 order their names alphabetically and print each name on a new line.
 """
 # -----------------------------------------------------------------------------------------------------------------
+if __name__ == '__main__':
+    list_ = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        list_.append([name,score])
+    second_highest = sorted(set([score for name, score in list_]))[1]
+    print('\n'.join(sorted([name for name, score in list_ if score == second_highest])))
