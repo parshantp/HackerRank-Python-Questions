@@ -1,3 +1,4 @@
+"""
 Task
 You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
 
@@ -11,6 +12,7 @@ string line: a string of space-separated words
 Returns
 
 string: the resulting string
+"""
 # ---------------------------------------------------------------------------------------------------------------
 def split_and_join(line):
     line = line.split(" ")
