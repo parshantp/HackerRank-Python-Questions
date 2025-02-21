@@ -5,7 +5,7 @@ store them in a nested list and print the name(s) of any student(s) having the s
 Note: If there are multiple students with the second lowest grade, 
 order their names alphabetically and print each name on a new line.
 """
-# -----------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     list_ = []
     for _ in range(int(input())):
