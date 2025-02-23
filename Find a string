@@ -6,3 +6,18 @@ String traversal will take place from left to right, not from right to left.
 NOTE: String letters are case-sensitive.
 """
 # ---------------------------------------------------------------------------------------------------------
+def count_substring(string, sub_string):
+    s = string
+    ss = sub_string
+    count = 0
+    for i in range(len(s)):
+        if s[i:len(s)].startswith(ss):
+            count+=1
+    return count
+
+if __name__ == '__main__':
+    string = input().strip()
+    sub_string = input().strip()
+    
+    count = count_substring(string, sub_string)
+    print(count)
