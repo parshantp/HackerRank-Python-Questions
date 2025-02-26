@@ -8,7 +8,7 @@ Input Format
 
 A single line containing the thickness value for the logo.
 """
-# -------------------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------------------
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 thickness = int(input()) #This must be an odd number
 c = 'H'
